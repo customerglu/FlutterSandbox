@@ -68,7 +68,7 @@ class _SplashPageState extends State<SplashPage> {
                 borderRadius: BorderRadius.circular(10.0),
               ),
               child: const Text(
-                'Sign In',
+                'Explore',
                 style: TextStyle(
                   color: white,
                   fontSize: 16,
@@ -77,18 +77,7 @@ class _SplashPageState extends State<SplashPage> {
               ),
             ),
           ),
-          TextButton(
-            onPressed: () {},
-            child: Text(
-              'Create an account',
-              style: TextStyle(
-                color: black.withOpacity(0.7),
-                fontSize: 16,
-                letterSpacing: 1,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ),
+
           TextButton(
             onPressed: () {},
             child: Text(
